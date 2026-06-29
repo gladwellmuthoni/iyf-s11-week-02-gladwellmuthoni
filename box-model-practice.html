@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model Practice</title>
+    <style>
+        /* Exercise 1: Visualizing the Box Model */
+        .box {
+            background-color: lightblue;
+            padding: 20px;
+            border: 5px solid darkblue;
+            margin: 30px;
+            width: 200px;
+        }
+
+        /*Debugging Layout */
+        .fixed-box {
+            width: 300px;
+            padding: 20px;
+            border: 5px solid black;
+            box-sizing: border-box; 
+        }
+
+        /*Card Component */
+        .card {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid gray;
+            box-sizing: border-box;
+        }
+        .card img { width: 100%; }
+        .card h2 { margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+
+    <h1>Exercise 1: Visualizing the Box Model</h1>
+    <div class="box">Content Area + Padding + Border + Margin</div>
+
+    <h1>Exercise 2: Debugging Layout</h1>
+    <div class="fixed-box">I am exactly 300px wide now!</div>
+
+    <h1>Exercise 3: Card Component</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="C:\Users\Administrator\Downloads\profile.jpg" alt="Portfolio Image">
+            <h2>Card Title 1</h2>
+            <p>This is a descriptive text inside the card component.</p>
+            <button>Click Me</button>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <h2>Card Title 2</h2>
+            <p>This is the description for the second project.</p>
+            <button>Click me</button>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <h2>Card Title 3</h2>
+            <p>This is the description for the third project.</p>
+            <button>Click Me</button>
+        </div>
+    </div>
+
+</body>
+</html>
